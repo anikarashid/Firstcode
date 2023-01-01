@@ -25,8 +25,8 @@ public class ActionClass {
         a.moveToElement(driver.findElement(By.xpath("//a[text()='Reload']"))).click().perform();
         WebElement scrolltwo = driver.findElement(By.xpath("//button[@id='mousehover']"));
         JavascriptExecutor ps = (JavascriptExecutor) driver;
-        ps.executeScript("arguments[0].scrollIntoView();", scrolltwo);
-        a.moveToElement(scrolltwo).perform();
+         ps.executeScript("arguments[0].scrollIntoView();", scrolltwo);
+          a.moveToElement(scrolltwo).perform();
         Thread.sleep(2000l);
         //Top
         a.moveToElement(driver.findElement(By.xpath("//a[text()='Top']"))).click().perform();

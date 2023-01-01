@@ -14,7 +14,7 @@ public class FrameDragAndDropPractice {
     @Test
 
     public  void dragAndDrop() throws InterruptedException {
-        WebDriverManager.chromedriver().setup();
+       // WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.get("https://jqueryui.com/droppable/");
       WebElement framePage =driver.findElement(By.tagName("iframe"));

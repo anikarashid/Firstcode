@@ -15,7 +15,7 @@ public class DragandDrop {
         WebElement frame = driver.findElement(By.tagName("iframe"));
         driver.switchTo().frame(frame);
 
-        WebElement Source = driver.findElement(By.xpath("//[@id='draggable']"));
+        WebElement Source = driver.findElement(By.id("draggable"));
         WebElement target = driver.findElement(By.id("droppable"));
 
         Actions ac= new Actions(driver);

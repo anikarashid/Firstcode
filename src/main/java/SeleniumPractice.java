@@ -46,10 +46,9 @@ public class SeleniumPractice {
         // WebElement scrollTo =  driver.findElement(By.xpath("//button[@id='mousehover']"));
      //   WebElement sc = driver.findElement(By.xpath("//a[text()='Latest News']"));
       //  JavascriptExecutor js = ( JavascriptExecutor ) driver;
-      //  js.executeScript("arguments[0].scrollIntoView();",sc);
+      //  js.executeScript("arguments[0].scrollIntoView();",sc)
 
-
-
+//for css selector----#id, .class
        // Thread.sleep(5000l);
         // driver.quit();
 

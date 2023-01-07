@@ -14,7 +14,7 @@ public class NestedFrameThree {
     @Test
 
     public void NestedFrameThree() throws InterruptedException {
-        WebDriverManager.chromedriver().setup();
+       // WebDriverManager.chromedriver().setup();
         WebDriver driver  = new ChromeDriver();
         driver.get("http://the-internet.herokuapp.com/nested_frames");
 
